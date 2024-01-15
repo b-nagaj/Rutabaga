@@ -1,0 +1,17 @@
+/* Styling for the Intro component */
+
+/* Intro title */
+.title {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Intro subtitle */
+.subtitle {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #546E7A;
+}
