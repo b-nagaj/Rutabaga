@@ -8,7 +8,7 @@
  interface SectionProps {
    width?: number;
    height?: number;
-   className?: CSSProperties;
+   className?: string;
    children: ReactNode;
  }
  
@@ -16,7 +16,7 @@
    const sectionStyle: CSSProperties = {
      width: width || '100%', 
      height: height || 'auto', 
-     ...className
+     ...(className ? { className } : {})
    };
  
    return (
