@@ -1,5 +1,7 @@
 // Intro component to explain what the site does at a glance
 
+import Section from '../Section/Section.tsx';
+
 import './Intro.css'
 
 interface IntroProps {
@@ -9,14 +11,14 @@ interface IntroProps {
 
 const Intro: React.FC<IntroProps> = ({ title, subtitle }) => {
     return (
-        <>
-            <h1 className='title'>
+        <Section className='intro'>
+            <h1 className='intro intro__title'>
                 {title}
             </h1>
-            <div className='subtitle'>
+            <div className='intro intro__subtitle'>
                 {subtitle}
             </div>
-        </>
+        </Section>
     );
 }
 

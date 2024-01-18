@@ -1,15 +1,23 @@
 /* Styling for the Intro component */
 
-/* Intro title */
-.title {
+/* 
+    Blocks    [block] 
+    Elements  [block]__[element] 
+    Modifiers [block]--[modifier]
+
+    https://en.bem.info/methodology/quick-start/
+*/
+
+.intro {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-/* Intro subtitle */
-.subtitle {
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.intro__title {
+    font-size: 30px
+}
+
+.intro__subtitle {
     font-size: 20px;
     margin-left: 20%;
     margin-right: 20%;
