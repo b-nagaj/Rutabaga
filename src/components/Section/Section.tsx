@@ -8,15 +8,15 @@
  interface SectionProps {
    width?: number;
    height?: number;
-   style?: CSSProperties;
+   className?: CSSProperties;
    children: ReactNode;
  }
  
- const Section: React.FC<SectionProps> = ({ width, height, style, children }) => {
+ const Section: React.FC<SectionProps> = ({ width, height, className, children }) => {
    const sectionStyle: CSSProperties = {
      width: width || '100%', 
      height: height || 'auto', 
-     ...style
+     ...className
    };
  
    return (
