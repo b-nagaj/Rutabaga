@@ -11,13 +11,13 @@ interface IntroProps {
 
 const Intro: React.FC<IntroProps> = ({ title, subtitle }) => {
     return (
-        <Section>
-            <h1 className='title'>
+        <Section className='intro'>
+            <h1 className='intro intro__title'>
                 {title}
-                <div className='subtitle'>
-                    {subtitle}
-                </div>
             </h1>
+            <div className='intro intro__subtitle'>
+                {subtitle}
+            </div>
         </Section>
     );
 }
