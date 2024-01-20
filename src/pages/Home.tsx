@@ -14,7 +14,7 @@ const contentRowValues: CardProps = {
   descriptions: ['Description 1', 'Description 2', 'Description 3'],
 };
 
-function Home() {
+const Home = () => {
   return (
     <>
       <Section>
