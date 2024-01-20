@@ -1,11 +1,13 @@
 // Home page
 
 import Section from "../components/Section/Section.tsx"
-import Intro from "../components/Intro/Intro.tsx"
+import { Intro, IntroProps } from "../components/Intro/Intro.tsx"
 import { Card, CardProps } from "../components/Card/Card.tsx"
 
-const title = "Rutabaga Reading"
-const subtitle = "Keep all the metrics about your favorite books, all in one place. Rutabaga running is a platform where you can keep tallies on the books you've read and what you love about them."
+const introContent: IntroProps = {
+  title: "Rutabaga Reading",
+  subtitle: "Keep all the metrics about your favorite books, all in one place. Rutabaga running is a platform where you can keep tallies on the books you've read and what you love about them."
+}
 
 const contentRowValues: CardProps = {
   titles: ['Test 1', 'Test 2', 'Test 3'],
@@ -19,8 +21,8 @@ const Home = () => {
     <>
       <Section>
         <Intro
-          title={title}
-          subtitle={subtitle}>
+          title={introContent.title}
+          subtitle={introContent.subtitle}>
         </Intro>
       </Section>
       <Section className="content-row-background">

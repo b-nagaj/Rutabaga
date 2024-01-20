@@ -4,12 +4,12 @@ import Section from '../Section/Section.tsx';
 
 import './Intro.css'
 
-interface IntroProps {
+export type IntroProps = {
     title: string;
     subtitle: string;
 }
 
-const Intro: React.FC<IntroProps> = ({ title, subtitle }) => {
+export const Intro: React.FC<IntroProps> = ({ title, subtitle }) => {
     return (
         <Section className='intro'>
             <h1 className='intro intro__title'>
