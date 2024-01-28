@@ -1,4 +1,7 @@
-/* Styling for the Intro component */
+/**
+ * Styling for the Intro component
+ *
+ */
 
 /* 
     Blocks    [block] 
@@ -9,17 +12,17 @@
 */
 
 .intro {
-    text-align: center;
-    font-family: sans-serif, Arial, Helvetica;
+  text-align: center;
+  font-family: sans-serif, Arial, Helvetica;
 }
 
 .intro__title {
-    font-size: 30px
+  font-size: 30px;
 }
 
 .intro__subtitle {
-    font-size: 20px;
-    margin-left: 20%;
-    margin-right: 20%;
-    color: #546E7A;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #546e7a;
 }

@@ -1,13 +1,14 @@
-/* 
-    Blocks    [block] 
-    Elements  [block]__[element] 
-    Modifiers [block]--[modifier]
-
-    https://en.bem.info/methodology/quick-start/
-*/
+/**
+ * Blocks    [block] 
+ *     Elements  [block]__[element] 
+ *     Modifiers [block]--[modifier]
+ * 
+ *     https://en.bem.info/methodology/quick-start/
+ *
+ */
 
 :root {
-    color-scheme: light dark;
-    color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
-  }
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
