@@ -10,10 +10,22 @@ const introContent: IntroProps = {
 }
 
 const contentRowValues: CardProps = {
-  titles: ['Test 1', 'Test 2', 'Test 3'],
-  images: ['https://i.imgur.com/MK3eW3Am.jpg', 'https://i.imgur.com/7vQD0fPs.jpg', 'https://i.imgur.com/1bX5QH6.jpg'],
-  imageAlts: ['Picture #1', 'Picture #2', 'Picture #3'],
-  descriptions: ['Description 1', 'Description 2', 'Description 3'],
+  titles: ["Log A Book", 
+           "Add to Your Wishlist", 
+           "View & Manage Goals"
+          ],
+  images: ["https://i.imgur.com/MK3eW3Am.jpg", 
+           "https://i.imgur.com/7vQD0fPs.jpg", 
+           "https://i.imgur.com/1bX5QH6.jpg"
+          ],
+  imageAlts: ["Log A Book", 
+              "Add to Your Wishlist", 
+              "View & Manage Goals"
+             ],
+  descriptions: ["Put on the glasses of a literary illusionist. Leave your review on a book you've recently added to your repertoire", 
+                 "Craft a personalized treasure map to your desires. Make a list of books you can't live without", 
+                 "Plant a seed in the garden of your aspirations. Set a goal to define your reading journey"
+                ],
 };
 
 const Home = () => {
