@@ -12,18 +12,20 @@ export type CardProps = {
 function display(title: string, image: string, imageAlt: string, description: string) {
     return (
         <div className="card">
-            <div className='card__title'>
+            <div className="card__title">
                 {title}
             </div>       
-            <img
-                src={image}
-                alt={imageAlt}
-            />       
-            <div className='card__description'>
+            <div className='card__image-container'>
+                <img className="card__image"
+                    src={image}
+                    alt={imageAlt}
+                />    
+            </div>   
+            <div className="card__description">
                 {description}
             </div>
         </div>
-    )
+    );
 }
 
 export const Card: React.FC<CardProps> = ({ titles, images, imageAlts, descriptions }) => {

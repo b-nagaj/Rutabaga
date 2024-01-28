@@ -20,18 +20,42 @@
   
 .card {
     height: 438px;
-    width: 300px;
+    width: 100%;
     margin-top: 48px;
     margin-bottom: 48px;
     text-align: center;
     font-family: sans-serif, Arial, Helvetica;
+    border-radius: 5%;
+    background-color: lightseagreen;
+    border: 2px solid silver
 }
 
 .card__title {
-    font-size: large;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: x-large;
+    color: black;
+}
+
+.card__image-container {
+    width: 60%;
+    height: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.card__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .card__description {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-size: medium;
     color: #546E7A;
 }
