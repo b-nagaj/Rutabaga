@@ -12,8 +12,8 @@
 */
 
 .intro {
-  text-align: center;
   font-family: sans-serif, Arial, Helvetica;
+  text-align: center;
 }
 
 .intro__title {
@@ -21,8 +21,8 @@
 }
 
 .intro__subtitle {
+  color: #546e7a;
   font-size: 20px;
   margin-left: 20%;
   margin-right: 20%;
-  color: #546e7a;
 }
