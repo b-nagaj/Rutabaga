@@ -12,16 +12,21 @@ export type ContentRowProps = {
 
 export const ContentRow: React.FC<ContentRowProps> = ({ titles, images, imageAlts, descriptions }) => {
     return (
-        <div className="content-row">
-            {Array.from({ length: titles.length }, (_, index) => (
-                <Card
-                    title={titles[index]}
-                    image={images[index]}
-                    imageAlt={imageAlts[index]}
-                    description={descriptions[index]}>
-                </Card>
-            ))}
-        </div>
+        <>
+            <hr className="content-row-line"></hr>
+            <div className="content-row">
+                {Array.from({ length: titles.length }, (_, index) => (
+                    <Card
+                        title={titles[index]}
+                        image={images[index]}
+                        imageAlt={imageAlts[index]}
+                        description={descriptions[index]}>
+                    </Card>
+                ))}
+            </div>
+            <hr className="content-row-line"></hr>
+        </>
+       
     );
 }
 
