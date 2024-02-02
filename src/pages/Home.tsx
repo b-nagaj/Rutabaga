@@ -37,7 +37,7 @@ const Home = () => {
           subtitle={introContent.subtitle}>
         </Intro>
       </Section>
-      <Section className="content-row-background">
+      <Section>
         <ContentRow
           titles={contentRowValues.titles}
           images={contentRowValues.images}
