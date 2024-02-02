@@ -1,6 +1,11 @@
 /* Styling for the Intro component */
 
 /* 
+    Formatted with Stylelint https://stylelint.io/user-guide/get-started
+    Reference '.stylelintrc.json' for rules 
+*/
+
+/* 
     Blocks    [block] 
     Elements  [block]__[element] 
     Modifiers [block]--[modifier]
@@ -21,5 +26,6 @@
     font-size: 20px;
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 24px;
     color: #546E7A;
 }

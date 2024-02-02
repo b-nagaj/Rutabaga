@@ -1,28 +1,22 @@
 /* Styling for the Card component */
 
 /* 
+    Formatted with Stylelint https://stylelint.io/user-guide/get-started
+    Reference '.stylelintrc.json' for rules 
+*/
+
+/* 
     Blocks    [block] 
     Elements  [block]__[element] 
     Modifiers [block]--[modifier]
 
     https://en.bem.info/methodology/quick-start/
 */
-
-.card-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    justify-items: center;
-    column-gap: 24px;
-    row-gap: 24px;
-    max-width: 948px;
-    margin: 0 auto;
-  }
   
 .card {
     height: 438px;
     width: 100%;
-    margin-top: 48px;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
     text-align: center;
     font-family: sans-serif, Arial, Helvetica;
     border-radius: 5%;
