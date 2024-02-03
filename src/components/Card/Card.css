@@ -4,6 +4,11 @@
  */
 
 /* 
+    Formatted with Stylelint https://stylelint.io/user-guide/get-started
+    Reference '.stylelintrc.json' for rules 
+*/
+
+/* 
     Blocks    [block] 
     Elements  [block]__[element] 
     Modifiers [block]--[modifier]
@@ -11,23 +16,13 @@
     https://en.bem.info/methodology/quick-start/
 */
 
-.card-container {
-  column-gap: 24px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  justify-items: center;
-  margin: 0 auto;
-  max-width: 948px;
-}
-
 .card {
   background-color: lightseagreen;
   border: 2px solid silver;
   border-radius: 5%;
   font-family: sans-serif, "Arial", "Helvetica";
   height: 438px;
-  margin-bottom: 48px;
-  margin-top: 48px;
+  margin-bottom: 24px;
   text-align: center;
   width: 100%;
 }

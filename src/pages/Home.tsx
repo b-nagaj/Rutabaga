@@ -2,7 +2,10 @@
 
 import Section from "../components/Section/Section.tsx";
 import { Intro, IntroProps } from "../components/Intro/Intro.tsx";
-import { Card, CardProps } from "../components/Card/Card.tsx";
+import {
+  ContentRow,
+  ContentRowProps,
+} from "../components/ContentRow/ContentRow.tsx";
 
 const introContent: IntroProps = {
   title: "Rutabaga Reading",
@@ -10,7 +13,7 @@ const introContent: IntroProps = {
     "Keep all the metrics about your favorite books, all in one place. Rutabaga running is a platform where you can keep tallies on the books you've read and what you love about them.",
 };
 
-const contentRowValues: CardProps = {
+const contentRowValues: ContentRowProps = {
   titles: ["Log A Book", "Add to Your Wishlist", "View & Manage Goals"],
   images: [
     "https://i.imgur.com/MK3eW3Am.jpg",
@@ -33,12 +36,12 @@ const Home = () => {
           title={introContent.title}
           subtitle={introContent.subtitle}></Intro>
       </Section>
-      <Section className="content-row-background">
-        <Card
+      <Section>
+        <ContentRow
           titles={contentRowValues.titles}
           images={contentRowValues.images}
           imageAlts={contentRowValues.imageAlts}
-          descriptions={contentRowValues.descriptions}></Card>
+          descriptions={contentRowValues.descriptions}></ContentRow>
       </Section>
     </>
   );

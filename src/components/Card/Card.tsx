@@ -2,19 +2,19 @@
 
 import "./Card.css";
 
-export type CardProps = {
-  titles: string[];
-  images: string[];
-  imageAlts: string[];
-  descriptions: string[];
+type CardProps = {
+  title: string;
+  image: string;
+  imageAlt: string;
+  description: string;
 };
 
-function display(
-  title: string,
-  image: string,
-  imageAlt: string,
-  description: string
-) {
+export const Card: React.FC<CardProps> = ({
+  title,
+  image,
+  imageAlt,
+  description,
+}) => {
   return (
     <div className="card">
       <div className="card__title">{title}</div>
@@ -26,28 +26,6 @@ function display(
         />
       </div>
       <div className="card__description">{description}</div>
-    </div>
-  );
-}
-
-export const Card: React.FC<CardProps> = ({
-  titles,
-  images,
-  imageAlts,
-  descriptions,
-}) => {
-  return (
-    <div className="card-container">
-      {Array.from({ length: titles.length }, (_, index) => (
-        <div key={index}>
-          {display(
-            titles[index],
-            images[index],
-            imageAlts[index],
-            descriptions[index]
-          )}
-        </div>
-      ))}
     </div>
   );
 };

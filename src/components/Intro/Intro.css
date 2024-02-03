@@ -4,6 +4,11 @@
  */
 
 /* 
+    Formatted with Stylelint https://stylelint.io/user-guide/get-started
+    Reference '.stylelintrc.json' for rules 
+*/
+
+/* 
     Blocks    [block] 
     Elements  [block]__[element] 
     Modifiers [block]--[modifier]
@@ -23,6 +28,7 @@
 .intro__subtitle {
   color: #546e7a;
   font-size: 20px;
+  margin-bottom: 24px;
   margin-left: 20%;
   margin-right: 20%;
 }
