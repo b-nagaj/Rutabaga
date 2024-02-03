@@ -1,11 +1,15 @@
-/**
- * Blocks    [block] 
- *     Elements  [block]__[element] 
- *     Modifiers [block]--[modifier]
- * 
- *     https://en.bem.info/methodology/quick-start/
- *
- */
+/* 
+  Formatted with Stylelint https://stylelint.io/user-guide/get-started
+  Reference '.stylelintrc.json' for rules 
+*/
+
+/* 
+  Blocks    [block] 
+  Elements  [block]__[element] 
+  Modifiers [block]--[modifier]
+
+  https://en.bem.info/methodology/quick-start/
+*/
 
 :root {
   background-color: #242424;
