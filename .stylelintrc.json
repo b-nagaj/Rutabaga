@@ -19,7 +19,6 @@
     "no-irregular-whitespace": true,
     "custom-property-no-missing-var-function": true,
     "declaration-block-no-shorthand-property-overrides": true,
-    "selector-anb-no-unmatchable": true,
     "annotation-no-unknown": true,
     "at-rule-no-unknown": true,
     "declaration-property-value-no-unknown": true,
