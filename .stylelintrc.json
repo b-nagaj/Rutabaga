@@ -53,7 +53,6 @@
     "selector-type-case": "lower",
     "value-keyword-case": "lower",
     "at-rule-empty-line-before": "always",
-    "comment-empty-line-before": "never",
     "custom-property-empty-line-before": "always",
     "declaration-empty-line-before": "never",
     "rule-empty-line-before": "always-multi-line",
@@ -67,7 +66,6 @@
     "lightness-notation": "percentage",
     "media-feature-range-notation": "prefix",
     "selector-pseudo-element-colon-notation": "double",
-    "comment-pattern": "string",
     "selector-class-pattern": [
       "^([a-z]+(-[a-z0-9]+)?)?(__[a-z]+(-[a-z0-9]+)?)?$",
       {
