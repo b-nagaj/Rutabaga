@@ -1,7 +1,12 @@
 /* 
-    Blocks    [block] 
-    Elements  [block]__[element] 
-    Modifiers [block]--[modifier]
+  Formatted with Stylelint https://stylelint.io/user-guide/get-started
+  Reference '.stylelintrc.json' for rules 
+*/
 
-    https://en.bem.info/methodology/quick-start/
+/* 
+  Blocks    [block] 
+  Elements  [block]__[element] 
+  Modifiers [block]--[modifier]
+
+  https://en.bem.info/methodology/quick-start/
 */

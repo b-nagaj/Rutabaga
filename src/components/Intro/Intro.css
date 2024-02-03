@@ -1,31 +1,29 @@
-/* Styling for the Intro component */
-
 /* 
-    Formatted with Stylelint https://stylelint.io/user-guide/get-started
-    Reference '.stylelintrc.json' for rules 
+  Formatted with Stylelint https://stylelint.io/user-guide/get-started
+  Reference '.stylelintrc.json' for rules 
 */
 
 /* 
-    Blocks    [block] 
-    Elements  [block]__[element] 
-    Modifiers [block]--[modifier]
+  Blocks    [block] 
+  Elements  [block]__[element] 
+  Modifiers [block]--[modifier]
 
-    https://en.bem.info/methodology/quick-start/
+  https://en.bem.info/methodology/quick-start/
 */
 
 .intro {
-    text-align: center;
-    font-family: sans-serif, Arial, Helvetica;
+  font-family: sans-serif, "Arial", "Helvetica";
+  text-align: center;
 }
 
 .intro__title {
-    font-size: 30px
+  font-size: 30px;
 }
 
 .intro__subtitle {
-    font-size: 20px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 24px;
-    color: #546E7A;
+  color: #546e7a;
+  font-size: 20px;
+  margin-bottom: 24px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
