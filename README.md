@@ -1,6 +1,6 @@
 # Rutabaga
 
-One Paragraph of project description goes here
+The ultimate destination for book lovers, offering a seamless platform to write personalized reviews of your favorite books, curate wishlists, and define personalized reading goals.
 
 ## Getting Started
 
