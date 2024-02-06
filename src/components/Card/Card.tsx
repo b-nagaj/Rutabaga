@@ -26,6 +26,11 @@ export const Card: React.FC<CardProps> = ({
         />
       </div>
       <div className="card__description">{description}</div>
+      <a
+        className="card__button"
+        href="https://www.example.com">
+        Learn More
+      </a>
     </div>
   );
 };
