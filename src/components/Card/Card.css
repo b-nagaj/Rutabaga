@@ -12,10 +12,12 @@
 */
 
 .card {
-  background-color: lightseagreen;
-  border: 2px solid silver;
-  border-radius: 5%;
-  font-family: sans-serif, "Arial", "Helvetica";
+  background-color: #b9ff66;
+  border: 2px solid black;
+  border-radius: 2em;
+  color: #546e7a;
+  font-family: sans-serif;
+  font-weight: 300;
   height: 438px;
   margin-bottom: 24px;
   text-align: center;
@@ -23,7 +25,6 @@
 }
 
 .card__title {
-  color: black;
   font-size: x-large;
   padding-bottom: 5%;
   padding-top: 5%;
@@ -45,9 +46,16 @@
 }
 
 .card__description {
-  color: #546e7a;
   font-size: medium;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 5%;
+  height: 80px;
+  padding: 5%;
+}
+
+.card__button {
+  background-color: #7d12ff;
+  border-radius: 2em;
+  color: white;
+  font-weight: 300;
+  padding: 0.3em 1.2em;
+  text-decoration: none;
 }
