@@ -26,6 +26,7 @@ export const Card: React.FC<CardProps> = ({
         />
       </div>
       <div className="card__description">{description}</div>
+      <button className="card__button">Learn More</button>
     </div>
   );
 };
