@@ -34,10 +34,12 @@
   height: 50%;
   margin: 0 auto;
   position: relative;
-  width: 60%;
+  width: 65%;
 }
 
 .card__image {
+  border: 1px solid black;
+  border-radius: 1em;
   height: 100%;
   left: 0;
   position: absolute;
@@ -53,9 +55,9 @@
 
 .card__button {
   background-color: #7d12ff;
+  border: none;
   border-radius: 2em;
   color: white;
   font-weight: 300;
   padding: 0.3em 1.2em;
-  text-decoration: none;
 }
